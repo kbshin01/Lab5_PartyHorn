@@ -22,7 +22,7 @@ function updateSlider() {
 
 var volumeImage = document.getElementById("volume-image");
 var honkBtn = document.getElementById("honk-btn");
-updateVolImage(volVal) {
+function updateVolImage(volVal) {
   if (volVal >= 67) {
     volumeImage.setAttribute("src", "./assets/media/icons/volume-level-3.svg");
     honkBtn.disabled = false;
